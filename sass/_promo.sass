@@ -1,0 +1,97 @@
+.promo
+    max-height: 650px
+    padding: 21px 0 93px 0
+    background: url("../img/bg.png") center (center/cover) no-repeat 
+    &__wrapper
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        margin-top: 90px
+    &__header
+        color: #fff
+        font-size: 42px
+        font-weight: 700
+        text-transform: uppercase
+    &__subheader
+        margin-top: 17px
+        color: #fff
+        font-size: 24px
+        font-weight: 500
+        text-transform: uppercase
+    &__icons
+        margin-top: 65px
+        width: 425px
+        display: flex
+        justify-content: space-between
+    &__icon
+        width: 106px
+        text-align: center
+        color: #fff
+        font-size: 14px
+        font-weight: 500
+        img
+            display: block
+            margin-bottom: 20px
+            margin: 0 auto
+    &__link
+        color: #fff
+        font-size: 16px
+        font-weight: 500
+        margin-top: 18px
+        a
+            color: #fff
+            text-transform: uppercase
+            text-decoration: underline
+@media  screen and (max-width:1024px)
+    .promo
+        &__header
+            font-size: 40px
+        &__subheader
+            font-size: 22px
+
+@media screen and ( max-width:768px)
+
+
+    .promo
+        &__header
+            margin-right: 9px
+            font-size: 37px
+        &__subheader
+            margin-right: 9px
+            font-size: 19px
+        &__link
+            margin-right: 9px
+@media screen and ( max-width: 425px )
+    .promo
+        &__wrapper
+            display: block
+        &__header
+            font-size: 31px
+            text-align: center
+            margin: 0
+        &__subheader
+            font-size: 16px
+            text-align: center
+            margin: 0
+            margin-top: 17px
+        &__link
+            text-align: center
+            margin-right: 0
+            font-size: 15px
+        &__icon
+            font-size: 12px
+@media screen and ( max-width: 375px )
+    .promo
+        &__header
+            font-size: 25px
+        &__subheader
+            font-size: 15px
+        &__icons
+            display: block
+            width: 100%
+            margin-top: 20px
+        &__icon
+            margin: 0 auto
+            padding-top: 30px
+    
+    
