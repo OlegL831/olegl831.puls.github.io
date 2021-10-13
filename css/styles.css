@@ -1,0 +1,388 @@
+.promo {
+  max-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url("../img/bg.png") center center/cover no-repeat;
+}
+
+.promo__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 90px;
+}
+
+.promo__header {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.promo__subheader {
+  margin-top: 17px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.promo__icons {
+  margin-top: 65px;
+  width: 425px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.promo__icon {
+  width: 106px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.promo__icon img {
+  display: block;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.promo__link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 18px;
+}
+
+.promo__link a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .promo__header {
+    font-size: 40px;
+  }
+  .promo__subheader {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo__header {
+    margin-right: 9px;
+    font-size: 37px;
+  }
+  .promo__subheader {
+    margin-right: 9px;
+    font-size: 19px;
+  }
+  .promo__link {
+    margin-right: 9px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .promo__wrapper {
+    display: block;
+  }
+  .promo__header {
+    font-size: 31px;
+    text-align: center;
+    margin: 0;
+  }
+  .promo__subheader {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    margin-top: 17px;
+  }
+  .promo__link {
+    text-align: center;
+    margin-right: 0;
+    font-size: 15px;
+  }
+  .promo__icon {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .promo__header {
+    font-size: 25px;
+  }
+  .promo__subheader {
+    font-size: 15px;
+  }
+  .promo__icons {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .promo__icon {
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  width: 250px;
+}
+
+.header__logo img {
+  width: 100%;
+}
+
+.header__official {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.header__official span {
+  display: block;
+  font-size: 18px;
+}
+
+.header__phone {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header__phone:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 0 9px 0 9px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__logo {
+    width: 125px;
+  }
+  .header__phone {
+    font-size: 11px;
+  }
+  .header__official {
+    font-size: 11px;
+  }
+  .header span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    display: block;
+  }
+  .header__logo img {
+    width: 80%;
+  }
+  .header__official {
+    padding-top: 10px;
+    font-size: 23px;
+  }
+  .header span {
+    font-size: 20px;
+  }
+  .header__contacts {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .header__phone {
+    font-size: 18px;
+  }
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #c70101;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.button_main {
+  margin-top: 67px;
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .button_main {
+    margin-right: 9px;
+    width: 290px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .button {
+    width: 103px;
+    height: 13px;
+    font-size: 8px;
+  }
+  .button_main {
+    display: block;
+    margin: 0 auto;
+    margin-top: 67px;
+    width: 150px;
+    height: 30px;
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .button {
+    width: 124px;
+    height: 24px;
+    font-size: 10px;
+  }
+  .button_main {
+    width: 140px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+
+.advantage {
+  max-height: 473px;
+  padding: 73px 0 65px 0;
+}
+
+.advantage_tex {
+  display: block;
+  text-align: center;
+  color: #0D0D0D;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ad_c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ad_cont {
+  padding-top: 65px;
+  width: 33%;
+}
+
+.ad_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.ad_ad {
+  display: block;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #0d0d0d;
+  font-size: 18px;
+  font-weight: bold;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-style: normal;
+}
+
+.ad_q {
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: center;
+  width: 273px;
+}
+
+.ad_red {
+  color: #c70101;
+}
+
+@media screen and (max-width: 768px) {
+  .ad_q {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .advantage {
+    max-height: 850px;
+  }
+  .advantage_tex {
+    font-size: 25px;
+  }
+  .ad_c {
+    display: block;
+  }
+  .ad_cont {
+    width: 100%;
+  }
+}
+
+body {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=styles.css.map */
