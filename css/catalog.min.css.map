@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACL,cAAc,CAAE,KAAK,CAOa,AANjC,AAAD,cAAO,AAAC,CACJ,UAAU,CAAE,IAAI,CAChB,eAAe,CAAE,IAAI,CAAG,AAC3B,AAAD,aAAM,AAAC,CACH,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,IAAI,CACZ,MAAM,CAAE,iBAAiB,CAAG",
+    "sources": [
+        "../sass/catalog.sass"
+    ],
+    "names": [],
+    "file": "catalog.min.css"
+}
