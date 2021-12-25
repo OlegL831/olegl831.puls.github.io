@@ -143,3 +143,27 @@
                 text-transform: uppercase
                 &:hover
                     color: $main-color    
+@media screen and ( max-width: 768px )
+    .catalog
+        width: 660px
+        margin: 0 auto
+    .title
+        font-size: 27px
+    .catalog__tab
+        width: 200px
+        height: 40px
+        font-size: 16px
+        line-height: 38px
+@media screen and ( max-width: 425px )
+    .catalog
+        width: 301px
+        &__content
+            margin-top: 35px
+    .title
+        font-size: 20px
+    .catalog__tabs
+        display: block
+    .catalog__tab
+        margin: 0 auto
+        margin-bottom: 4px
+
